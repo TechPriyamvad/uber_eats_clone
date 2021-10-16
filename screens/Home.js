@@ -11,7 +11,7 @@ import SearchBar from "../components/home/SearchBar";
 import SafeViewAndroid from "../components/SafeViewAndroid/SafeViewAndroid";
 
 const YELP_API_KEY =
-  "7Nf0_KckVttzRJ6qivOYRqLqxAG-Io4IzGKtz9CAscG3kjfVTccKYV9LTo6W2C2_VxXn0IUa1zRbH0b5vWgfSQ5lQKNMckomJ8tQllxQqJubT57hTx8krIAZJ0hpYXYx";
+  "";
 
 export default function Home({ navigation }) {
   const [restaurantData, setRestaurantData] = useState(localRestaurants);
